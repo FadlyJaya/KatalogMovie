@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Katalog Film</string>
+
+    <string name="text_creator">Creator</string>
+    <string name="text_stars">Stars</string>
+    <string name="text_overview">Overview</string>
+    <string name="img_movie">Image Movie</string>
+    <string name="img_tvshow">Image TvShow</string>
+    <string name="ic_time">Ic Time</string>
+    <string name="name_tvshow">TvShow Name</string>
+    <string name="genre_tvshow">Genre TvShow</string>
+    <string name="creator_tvshow">Creator</string>
+    <string name="stars_tvshow">Stars</string>
+
+    <string name="movie_name">Nama Film</string>
+    <string name="movie_genre">Jenis Film</string>
+    <string name="movie_overview">Overview</string>
+    <string name="duration">Durasi</string>
+    <string name="producer">Produser</string>
+    <string name="director">Sutradara</string>
+    <string name="author">Penulis</string>
+    <string name="production">Produksi</string>
+    <string name="synopsis">Sinopsis</string>
+
+    <string name="now_playing">Movies</string>
+    <string name="up_coming">Tv Shows</string>
+    <string name="change_language">Ubah Bahasa</string>
+    <string name="movie_detail">Detail Film</string>
+    <string name="tvshow_detail">Detail TvShows</string>
+
+    <string-array name="data_durasi">
+        <item>129 Menit</item>
+        <item>118 Menit</item>
+        <item>89 Menit</item>
+        <item>116 Menit</item>
+        <item>94 Menit</item>
+        <item>101 Menit</item>
+        <item>103 Menit</item>
+        <item>118 Menit</item>
+        <item>100 Menit</item>
+        <item>93 Menit</item>
+    </string-array>
+
+    <string-array name="data_sinopsis">
+        <item>Petualangan Peter Parker (Tom Holland) kali ini akan menuju Eropa. Bersama teman-teman sekolahnya MJ (Zendaya), Ned (Jacob Batalon), Betty (Beras Angourie) dan Flash (Tony Revolori).
+            Namun ancaman datang dalam bentuk yang berbeda, teror mulai menyerang kota-kota di Eropa.
+            Kemunculan sosok Mysterio (Jake Gyllenhaal), Nick Fury (Samuel L. Jackson) dan Happy Hogan (Jon Favreau) akan memberi petunjuk dan tugas baru untuk sang manusia laba-laba itu.
+        </item>
+        <item>
+            Setelah ayahnya terbunuh, Simba, singa muda pewaris tahta melarikan diri dari kerajaannya hanya untuk mempelajari arti sebenarnya dari tanggung jawab dan keberanian.
+        </item>
+        <item>Karen Barclay (Aubrey Plaza) adalah orang tua tunggal. Bersama anaknya Andy (Gabriel Bateman) ia pindah ke kota baru untuk memulai awal yang baru.
+            Namun teror menghampiri Andy lewat sebuah boneka bernama Chucky. Andy meyakini boneka barunya itu adalah sumber dari serangkaian pembunuhan yang terjadi di wilayah baru mereka.
+        </item>
+        <item>Apa jadinya jika semua orang di dunia tidak mengenal The Beatles?
+            Jack Malik (Himesh Patel) adalah seorang musisi yang sedang berjuang mewujudkan mimpinya. Suatu hari ia memainkan lagu Yesterday karya The Beatles. Namun teman-teman yang mendengarkan Jack tidak mengetahui lagu tersebut.
+            Jack dikisahkan sebagai satu-satunya orang di dunia yang mengingat karya-karya The Beatles.
+        </item>
+        <item>Josephine Chesterfield (Anne Hathaway) adalah penipu kelas atas, Ia hidup mewah dari hasil menipu. Sementara Penny Rust (Rebel Wilson) adalah penipu kelas teri. Mereka sama-sama berbakat dengan cara yang berbeda.
+            Setelah dilatih di rumah besar Josephine, Penny akhirnya terjun ke lapangan dengan gaya baru yang tidak terduga.
+        </item>
+        <item>Aqilla (Aisha Nurra Datau) bermimpi untuk menjadi seorang Astronot dan berusaha memenangkan lomba membuat Vlog (Video Blog) tentang tokoh Antariksa dengan hadiah diundang ke Pusat Penelitian Angkasa Luar di Inggris.
+            Kekecewaan karena Opanya yang seorang Astronom (Cok Simbara) harus tugas ke Inggris dan tidak dapat membantunya membuat Vlog akhirnya mempertemukan Aqilla dengan seorang Astronot wanita Indonesia (Maudy Koesnaedi),
+            seorang ahli Botani yang sedang melakukan penelitian tanaman untuk hidup di luar angkasa. Apakah Aqilla berhasil memenangkan lomba tersebut dan menggapai mimpinya?
+        </item>
+        <item>Empat orang mahasiswa semester akhir di Universitas Hasanuddin galau memikirkan kuliah mereka yang tak kunjung selesai. Mereka adalah Tumming, Abu, Illank (Reo Ramadhan) dan Darwis (Hisyam Hamsir). Meski berbeda-beda Fakultas tapi tinggal di tempat kos yang sama. Bersahabat sejak mahasiswa baru dan berjanji untuk wisuda bersama-sama.
+            Bukan perkara mudah untuk bisa menyelesaikan kuliah tepat waktu. Susah masuknya, lebih susah lagi keluarnya, begitu ungkapan mereka. Belum lagi persoalan di tempat kos. Tumming dan kawan-kawan harus menghadapi ibu kos (Luna Vidya) yang super galak. Dan desakan dari orang tua agar segera sarjana.
+            Dari sinilah perjuangan mereka dimulai. Mereka berjanji harus bisa menyelesaikan kuliah bersama-sama. Mereka juga harus tetap survive hidup sebagai anak kos. Kelucuan demi kelucuan muncul dalam setiap adegan yang dikemas dengan sangat menarik. Jangan sampai ketinggalan aksi Tumming, Abu dan kawan-kawannya di bioskop, mulai tanggal 4 Juli 2019.
+        </item>
+        <item>
+            Di balik keanggunan Anna Poliatova (Sasha Luss) terdapat sebuah rahasia. Model cantik ini adalah senjata yang sangat mematikan.Kemampuannya membunuh di lapangan menjadikan Anna salah satu agen rahasia yang paling ditakuti.
+        </item>
+        <item>Woody, Buzz Lightyear, dan anggota geng lainnya memulai perjalanan dengan Bonnie dan mainan baru bernama Forky. Perjalanan yang penuh petualangan berubah menjadi reuni yang tak terduga ketika Woody bertemu dengan Bo Peep.
+            Sebuah perjalanan bersama teman-teman lama dan baru mengungkapkan dunia sangatlah besar untuk sebuah mainan.
+        </item>
+        <item>Ketika seorang pengemudi Uber yang santun bernama Stu (Kumail Nanjiani) menjemput seorang penumpang (Dave Bautista) yang ternyata adalah seorang polisi yang sedang
+            mengejar seorang pembunuh brutal (Iko Uwais), ia dihadapkan pada sebuah tekanan tingkat tinggi karena ia harus mati-matian berusaha untuk mempertahankan akalnya, hidupnya dan peringkat bintang lima-nya.
+        </item>
+    </string-array>
+
+    <string-array name="overview_tvshow">
+        <item>Sekelompok penjahat berangkat untuk menjatuhkan superhero yang korup yang menyalahgunakan kekuatan super mereka. </item>
+        <item>Ditetapkan pada akhir 1970-an, dua agen FBI ditugaskan untuk mewawancarai pembunuh berantai untuk menyelesaikan kasus-kasus terbuka. </item>
+        <item>Ketika seorang anak lelaki menghilang, ibunya, seorang kepala polisi, dan teman-temannya harus menghadapi kekuatan supranatural yang menakutkan untuk mendapatkannya kembali. </item>
+        <item>Ditetapkan dalam masa depan dystopian, seorang wanita dipaksa untuk hidup sebagai selir di bawah kediktatoran teokratis fundamentalis. </item>
+        <item>Tautan di masa lalu mereka menuntun polisi yang jujur ​​ke bos geng buron, yang peringatan samarnya memacu petugas itu dalam upaya menyelamatkan Mumbai dari bencana. </item>
+        <item>Mengikuti remaja Clay Jensen, dalam upayanya untuk mengungkap kisah di belakang teman sekelasnya dan orang yang disukainya, Hannah, dan keputusannya untuk mengakhiri hidupnya. </item>
+        <item>Mengikuti keluarga televangelist terkenal di dunia dengan tradisi panjang penyimpangan, keserakahan, dan pekerjaan amal. </item>
+        <item>Pandangan hidup pada sekelompok siswa sekolah menengah saat mereka bergulat dengan masalah narkoba, seks, dan kekerasan. </item>
+        <item>Dihukum karena kejahatan selama sepuluh tahun dalam pengangkutan uang narkoba ke mantan pacar, Piper Chapman yang taat hukum dihukum satu setengah tahun di balik jeruji besi untuk menghadapi kenyataan bagaimana penjara yang mengubah kehidupan bisa benar-benar terjadi. </item>
+        <item>Epik keluarga gangster berlatar tahun 1919 Birmingham, Inggris; berpusat pada geng yang menjahit pisau cukur di puncak topi mereka, dan bos mereka yang ganas Tommy Shelby. </item>
+    </string-array>
+
+</resources>

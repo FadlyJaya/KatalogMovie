@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Movie Catalogue</string>
+
+    <string name="text_creator">Creator</string>
+    <string name="text_stars">Stars</string>
+    <string name="text_overview">Overview</string>
+    <string name="img_movie">Image Movie</string>
+    <string name="img_tvshow">Image TvShow</string>
+    <string name="ic_time">Ic Time</string>
+    <string name="name_tvshow">TvShow Name</string>
+    <string name="genre_tvshow">Genre</string>
+    <string name="creator_tvshow">Creator</string>
+    <string name="stars_tvshow">Stars</string>
+
+    <string name="movie_name">Movie Name</string>
+    <string name="movie_genre">Genre</string>
+    <string name="movie_overview">Overview</string>
+    <string name="duration">Duration</string>
+    <string name="producer">Producer</string>
+    <string name="director">Director</string>
+    <string name="author">Author</string>
+    <string name="production">Production</string>
+    <string name="synopsis">Synopsis</string>
+
+    <string name="now_playing">Movies</string>
+    <string name="up_coming">Tv Shows</string>
+    <string name="change_language">Language Change</string>
+    <string name="movie_detail">Movie Details</string>
+    <string name="tvshow_detail">TvShows Details</string>
+
+    <array name="data_photo">
+        <item>@drawable/spiderman_far_from_home</item>
+        <item>@drawable/the_lion_king</item>
+        <item>@drawable/childs_play</item>
+        <item>@drawable/yesterday</item>
+        <item>@drawable/the_hustle</item>
+        <item>@drawable/iqro_my_universe</item>
+        <item>@drawable/anak_muda_palsu</item>
+        <item>@drawable/anna</item>
+        <item>@drawable/toy_story_4</item>
+        <item>@drawable/stuber</item>
+    </array>
+
+    <string-array name="data_movie">
+        <item>SPIDERMAN : FAR FOR HOME</item>
+        <item>THE LION KING</item>
+        <item>CHILDS PLAY</item>
+        <item>YESTERDAY</item>
+        <item>THE HUSTLE</item>
+        <item>IQRO - MY UNIVERSE</item>
+        <item>ANAK MUDA PALSU</item>
+        <item>ANNA</item>
+        <item>TOY STORY 4</item>
+        <item>STUBER</item>
+    </string-array>
+
+    <string-array name="data_genre">
+        <item>Action, Adventure, Comedy</item>
+        <item>Animation, Adventure, Drama</item>
+        <item>Horror</item>
+        <item>Comedy, Fantasy, Music</item>
+        <item>Comedy</item>
+        <item>Drama, Family</item>
+        <item>Comedy</item>
+        <item>Action, Thriller</item>
+        <item>Animation, Adventure, Comedy</item>
+        <item>Action, Comedy</item>
+    </string-array>
+
+    <string-array name="data_durasi">
+        <item>129 Minutes</item>
+        <item>118 Minutes</item>
+        <item>89 Minutes</item>
+        <item>116 Minutes</item>
+        <item>94 Minutes</item>
+        <item>101 Minutes</item>
+        <item>103 Minutes</item>
+        <item>118 Minutes</item>
+        <item>100 Minutes</item>
+        <item>93 Minutes</item>
+    </string-array>
+
+    <string-array name="data_produser">
+        <item>Amy Pascal, Kevin Peige</item>
+        <item>Jon Favreau, Jeffrey Silver, Karen Gilchrist</item>
+        <item>Seth Grahame-smith, David Katzenberg, Lars Klevberg</item>
+        <item>Tim Bevan, Eric Fellner, Richard Curtis, Danny Boyle, Bernie Bellew, Matthew James Wilkinson</item>
+        <item>Roger Birnbaum, Rebel Wilson, Chris Addison</item>
+        <item>Budiyati Abiyoga, Tyas Abiyoga, Iqbal Alfajri</item>
+        <item>Amril Nuryan, Andi Ashari Arraniri</item>
+        <item>Luc Besson, Luc Besson</item>
+        <item>Jonas Rivera, Mark Nielsen</item>
+        <item>John Francis Daley, Jonathan Goldstein</item>
+    </string-array>
+
+    <string-array name="data_sutradara">
+        <item>Jon Watts</item>
+        <item>Jon favreau</item>
+        <item>Lars Klevberg</item>
+        <item>Danny Boyle</item>
+        <item>Chris Addison</item>
+        <item>Iqbal Alfajri</item>
+        <item>Ihdar Nur</item>
+        <item>Luc Besson</item>
+        <item>Josh Cooley</item>
+        <item>Michael Dowse</item>
+    </string-array>
+
+    <string-array name="data_penulis">
+        <item>Chris McKenna, Erik Sommers</item>
+        <item>Jeff Nathanson</item>
+        <item>Tyler Burton Smith</item>
+        <item>Richard Curtis</item>
+        <item>Jac Schaeffer</item>
+        <item>Aisyah Amirah Nasution</item>
+        <item>Matamatahari, Tumming Dan Abu</item>
+        <item>Luc Besson</item>
+        <item>John Lasseter, Andrew Stanton, Pete Docter, Lee Unkrich, Rashida Jones, Will Mccormac</item>
+        <item>Tripper Clancy</item>
+    </string-array>
+
+    <string-array name="data_produksi">
+        <item>Sony Pictures</item>
+        <item>Walt Disney Pictures</item>
+        <item>Orion Pictures</item>
+        <item>Universal Pictures</item>
+        <item>Universal Pictures</item>
+        <item>YPM Salman ITB, Salman Film Academy, Bumi Prasidi, MAV</item>
+        <item>Finisia Production, 786 Production</item>
+        <item>EuropaCorp</item>
+        <item>Walt Disney Pictures</item>
+        <item>20th Century Fox</item>
+    </string-array>
+
+    <string-array name="data_sinopsis">
+        <item>
+            The adventures of Peter Parker (Tom Holland) this time will go to Europe.
+            Together with his school friends MJ (Zendaya), Ned (Jacob Batalon), Betty (Rice Angourie) and Flash (Tony Revolori).
+            But the threat came in a different form, terror began attacking cities in Europe.
+            The appearance of Mysterio (Jake Gyllenhaal), Nick Fury (Samuel L. Jackson) and Happy Hogan (Jon Favreau) will provide clues and new tasks for the spider man.
+        </item>
+        <item>
+            After his father was killed, Simba, the young lion heir to the throne fled his kingdom only to learn the true meaning of responsibility and courage.
+        </item>
+        <item>
+            Karen Barclay (Aubrey Plaza) is a single parent. Together with his son Andy (Gabriel Bateman) he moves to a new city to start a new beginning.
+            But terror came to Andy through a doll named Chucky. Andy believes his new doll is the source of a series of killings that took place in their new territory.
+        </item>
+        <item>
+            What happens if everyone in the world doesn\'t know the Beatles?
+            Jack Malik (Himesh Patel) is a musician who is struggling to realize his dream.
+            One day he played The Beatles song Yesterday. But friends who listen to Jack don\'t know the song.
+            Jack is said to be the only person in the world who remembers the works of the Beatles.
+        </item>
+        <item>
+            Josephine Chesterfield (Anne Hathaway) is a top-class con artist, she lives a luxurious life from the results of deception.
+            While Penny Rust (Rebel Wilson) is a petty con artist. They are both talented in different ways.
+            After being trained in Josephine\'s big house, Penny finally plunged into the field with a new, unexpected style.
+        </item>
+        <item>
+            Aqilla (Aisha Nurra Datau) dreams of becoming an Astronaut and trying to win a Vlog (Video Blog) contest about Space figures with prizes being invited to the Space Research Center in England.
+            Disappointment because Opanya who is an Astronomer (Cok Simbara) had to work in England and could not help her make a Vlog and finally met Aqilla with an Indonesian female Astronaut (Maudy Koesnaedi),
+            a botanist who is doing research on plants for life in space. Did Aqilla win the race and reach her dream?
+        </item>
+        <item>
+            Four final semester students at Hasanuddin University are troubled by their never-ending lecture. They are Tumming, Abu, Illank (Reo Ramadan) and Dervish (Hisham Hamsir). Although there are different faculties, but they live in the same boarding house. Being a freshman and promised to graduate together.
+            Not an easy matter to be able to finish college on time. Difficult entry, even harder exit, so they say. Not to mention the problem at the boarding house. Tumming and friends must face the super fierce boarding lady (Luna Vidya). And pressure from parents to immediately graduate.
+            From here their struggle began. They promised to be able to finish college together. They also have to survive to survive as boarding children. Cuteness after cuteness appears in every scene that is packaged very interestingly. Do not miss the Tumming action, Abu and his friends in the cinema, starting on July 4, 2019.
+        </item>
+        <item>
+            Behind the elegance of Anna Poliatova (Sasha Luss) there is a secret. This beautiful model is a very lethal weapon. Her ability to kill on the ground makes Anna one of the most feared secret agents.
+        </item>
+        <item>
+            Woody, Buzz Lightyear, and other gang members embark on a journey with Bonnie and a new toy named Forky. An adventurous journey turns into an unexpected reunion when Woody meets Bo Peep.
+            A trip with old and new friends reveals the world is very big for a toy.
+        </item>
+        <item>
+            When a polite Uber driver named Stu (Kumail Nanjiani) picks up a passenger (Dave Bautista) who turns out to be a policeman who is being
+            chasing a brutal assassin (Iko Uwais), he is faced with a high level of pressure because he must desperately try to maintain his wits, his life and his five-star rating.
+        </item>
+    </string-array>
+
+    <array name="img_tvshow">
+        <item>@drawable/the_boys</item>
+        <item>@drawable/mindhunter</item>
+        <item>@drawable/stranger_things</item>
+        <item>@drawable/the_haindmades_tale</item>
+        <item>@drawable/sacred_games</item>
+        <item>@drawable/reason_why</item>
+        <item>@drawable/the_righteous_gemstones</item>
+        <item>@drawable/euphoria</item>
+        <item>@drawable/orange</item>
+        <item>@drawable/peaky_blinders</item>
+    </array>
+
+    <string-array name="name_tvshow">
+        <item>THE BOYS</item>
+        <item>MINDHUNTER</item>
+        <item>STRANGER THINGS</item>
+        <item>THE HANDMAIDS TALE</item>
+        <item>SACRED GAMES</item>
+        <item>13 REASONS WHY</item>
+        <item>THE RIGHTEOUS GEMSTONES</item>
+        <item>EUPHORIA</item>
+        <item>ORANGE IS THE NEW BLACK</item>
+        <item>PEAKY BLINDERS</item>
+    </string-array>
+
+    <string-array name="genre_tvshow">
+        <item>Action, Comedy, Crime</item>
+        <item>Crime, Drama, Thriller</item>
+        <item>Drama, Fantasy, Horror</item>
+        <item>Drama, Sci-Fi, Thriller</item>
+        <item>Action, Crime, Drama</item>
+        <item>Drama, Mystery</item>
+        <item>Comedy</item>
+        <item>Drama</item>
+        <item>Comedy, Crime, Drama</item>
+        <item>Crime, Drama </item>
+    </string-array>
+
+    <string-array name="creator_tvshow">
+        <item> Eric Kripke, Evan Goldberg, Seth Rogen</item>
+        <item> Joe Penhall</item>
+        <item> Matt Duffer, Ross Duffer</item>
+        <item> Bruce Miller</item>
+        <item> </item>
+        <item> Brian Yorkey</item>
+        <item> Danny McBride</item>
+        <item> Sam Levinson</item>
+        <item> Jenji Kohan</item>
+        <item> Steven Knight</item>
+    </string-array>
+
+    <string-array name="start_tvshow">
+        <item> Karl Urban, Jack Quaid, Antony Starr</item>
+        <item> Jonathan Groff, Holt McCallany, Anna Torv</item>
+        <item> Millie Bobby Brown, Finn Wolfhard, Winona Ryder</item>
+        <item> Elisabeth Moss, Yvonne Strahovski, Joseph Fiennes</item>
+        <item> Saif Ali Khan, Nawazuddin Siddiqui, Neeraj Kabi</item>
+        <item> Dylan Minnette, Katherine Langford, Christian Navarro </item>
+        <item> Kelton DuMont, Skyler Gisondo, Troy Anthony Hogan</item>
+        <item> Zendaya, Maude Apatow, Angus Cloud</item>
+        <item> Taylor Schilling, Danielle Brooks, Taryn Manning</item>
+        <item> Cillian Murphy, Helen McCrory, Sophie Rundle</item>
+    </string-array>
+
+    <string-array name="overview_tvshow">
+        <item>A group of vigilantes set out to take down corrupt superheroes who abuse their superpowers.</item>
+        <item>Set in the late 1970s, two FBI agents are tasked with interviewing serial killers to solve open cases.</item>
+        <item>When a young boy disappears, his mother, a police chief, and his friends must confront terrifying supernatural forces in order to get him back.</item>
+        <item>Set in a dystopian future, a woman is forced to live as a concubine under a fundamentalist theocratic dictatorship.</item>
+        <item>A link in their pasts leads an honest cop to a fugitive gang boss, whose cryptic warning spurs the officer on a quest to save Mumbai from cataclysm.</item>
+        <item>Follows teenager Clay Jensen, in his quest to uncover the story behind his classmate and crush, Hannah, and her decision to end her life.</item>
+        <item>Follows a world-famous televangelist family with a long tradition of deviance, greed, and charitable work.</item>
+        <item>A look at life for a group of high school students as they grapple with issues of drugs, sex, and violence.</item>
+        <item>Convicted of a decade old crime of transporting drug money to an ex-girlfriend, normally law-abiding Piper Chapman is sentenced to a year and a half behind bars to face the reality of how life-changing prison can really be.</item>
+        <item>A gangster family epic set in 1919 Birmingham, England; centered on a gang who sew razor blades in the peaks of their caps, and their fierce boss Tommy Shelby.</item>
+    </string-array>
+
+</resources>

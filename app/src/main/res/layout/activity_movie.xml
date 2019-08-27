@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MovieActivity">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraint"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/img_photo"
+            android:layout_width="150dp"
+            android:layout_height="220dp"
+            android:contentDescription="@string/img_movie"
+            android:layout_marginEnd="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_image"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_conversion_wrapHeight="578"
+            tools:layout_conversion_wrapWidth="394" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/movie_name"
+            android:textColor="@color/colorBlack"
+            android:textSize="20sp"
+            app:layout_constraintLeft_toRightOf="@+id/img_photo"
+            app:layout_constraintStart_toEndOf="@+id/img_photo"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_conversion_wrapHeight="71"
+            tools:layout_conversion_wrapWidth="299"
+            android:maxLines="3"/>
+
+        <ImageView
+            android:id="@+id/ic_time"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:contentDescription="@string/ic_time"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/ic_access_time_black_24dp"
+            app:layout_constraintLeft_toRightOf="@id/img_photo"
+            app:layout_constraintTop_toBottomOf="@id/tv_name"
+            tools:layout_conversion_wrapHeight="53"
+            tools:layout_conversion_wrapWidth="53" />
+
+        <TextView
+            android:id="@+id/tv_durasi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/duration"
+            app:layout_constraintLeft_toRightOf="@+id/ic_time"
+            app:layout_constraintTop_toBottomOf="@id/tv_name"
+            tools:layout_conversion_wrapHeight="50"
+            tools:layout_conversion_wrapWidth="142" />
+
+        <TextView
+            android:id="@+id/text_genre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="@string/movie_genre"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/img_photo"
+            tools:layout_conversion_wrapHeight="50"
+            tools:layout_conversion_wrapWidth="99" />
+
+        <TextView
+            android:id="@+id/tv_genre"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:fontFamily="sans-serif-light"
+            android:text="Text"
+            android:textColor="@color/colorBlack"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/img_photo"
+            tools:layout_conversion_wrapHeight="50"
+            tools:layout_conversion_wrapWidth="656" />
+
+        <TextView
+            android:id="@+id/text_produser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/producer"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_genre"
+            tools:layout_conversion_wrapHeight="50"
+            tools:layout_conversion_wrapWidth="152" />
+
+        <TextView
+            android:id="@+id/tv_produser"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-light"
+            android:text="Text"
+            android:textColor="@color/colorBlack"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_genre"
+            tools:layout_conversion_wrapHeight="50"
+            tools:layout_conversion_wrapWidth="656" />
+
+        <TextView
+            android:id="@+id/text_sutradara"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/director"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_produser"
+            tools:layout_conversion_wrapHeight="50"
+            tools:layout_conversion_wrapWidth="134" />
+
+        <TextView
+            android:id="@+id/tv_sutradara"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-light"
+            android:text="Text"
+            android:textColor="@color/colorBlack"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_produser"
+            tools:layout_conversion_wrapHeight="50"
+            tools:layout_conversion_wrapWidth="656" />
+
+        <TextView
+            android:id="@+id/text_penulis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/author"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_sutradara"
+            tools:layout_conversion_wrapHeight="50"
+            tools:layout_conversion_wrapWidth="113" />
+
+        <TextView
+            android:id="@+id/tv_penulis"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-light"
+            android:text="Text"
+            android:textColor="@color/colorBlack"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_sutradara"
+            tools:layout_conversion_wrapHeight="50"
+            tools:layout_conversion_wrapWidth="656" />
+
+        <TextView
+            android:id="@+id/text_produksi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/production"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_penulis"
+            tools:layout_conversion_wrapHeight="50"
+            tools:layout_conversion_wrapWidth="184" />
+
+        <TextView
+            android:id="@+id/tv_produksi"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-light"
+            android:text="Text"
+            android:textColor="@color/colorBlack"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_penulis"
+            tools:layout_conversion_wrapHeight="50"
+            tools:layout_conversion_wrapWidth="656" />
+
+        <TextView
+            android:id="@+id/text_sinopsis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/synopsis"
+            android:textColor="@color/colorBlack"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/text_produksi"
+            tools:layout_conversion_wrapHeight="50"
+            tools:layout_conversion_wrapWidth="157" />
+
+        <TextView
+            android:id="@+id/tv_sinopsis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-light"
+            android:maxLines="10"
+            android:minLines="1"
+            android:text="Text"
+            android:textColor="@color/colorBlack"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/text_sinopsis"
+            tools:layout_conversion_wrapHeight="50"
+            tools:layout_conversion_wrapWidth="996" />
+
+
+    </android.support.constraint.ConstraintLayout>
+</android.support.v4.widget.NestedScrollView>
