@@ -10,7 +10,7 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.example.katalogmovie.fragment.NowPlayingFragment;
+import com.example.katalogmovie.fragment.MovieFragment;
 import com.example.katalogmovie.R;
 import com.example.katalogmovie.fragment.TvShowFragment;
 import com.example.katalogmovie.adapter.ViewPagerAdapter;
@@ -34,8 +34,8 @@ public class MainActivity extends AppCompatActivity {
 
         adapter = new ViewPagerAdapter(getSupportFragmentManager());
 
-        adapter.addFragment(new NowPlayingFragment(), getString(R.string.now_playing));
-        adapter.addFragment(new TvShowFragment(), getString(R.string.up_coming));
+        adapter.addFragment(new MovieFragment(), getString(R.string.movies));
+        adapter.addFragment(new TvShowFragment(), getString(R.string.tv_show));
 
         viewPager.setAdapter(adapter);
         tabLayout.setupWithViewPager(viewPager);
