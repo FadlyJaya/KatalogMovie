@@ -23,7 +23,7 @@ import java.util.List;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class NowPlayingFragment extends Fragment {
+public class MovieFragment extends Fragment {
 
     View view;
     private TypedArray dataPhoto;
@@ -32,7 +32,7 @@ public class NowPlayingFragment extends Fragment {
     private RecyclerView recyclerView;
     private List<Movie> movies ;
 
-    public NowPlayingFragment() {
+    public MovieFragment() {
         // Required empty public constructor
     }
 
@@ -41,7 +41,7 @@ public class NowPlayingFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        view = inflater.inflate(R.layout.fragment_now_playing, container, false);
+        view = inflater.inflate(R.layout.fragment_movie, container, false);
         recyclerView = view.findViewById(R.id.rv_movie);
         MovieAdapter movieAdapter = new MovieAdapter(getContext(), movies);
         recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));

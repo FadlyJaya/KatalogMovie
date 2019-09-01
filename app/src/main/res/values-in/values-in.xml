@@ -2,16 +2,9 @@
 <resources>
     <string name="app_name">Katalog Film</string>
 
-    <string name="text_creator">Creator</string>
-    <string name="text_stars">Stars</string>
-    <string name="text_overview">Overview</string>
-    <string name="img_movie">Image Movie</string>
-    <string name="img_tvshow">Image TvShow</string>
-    <string name="ic_time">Ic Time</string>
-    <string name="name_tvshow">TvShow Name</string>
-    <string name="genre_tvshow">Genre TvShow</string>
-    <string name="creator_tvshow">Creator</string>
-    <string name="stars_tvshow">Stars</string>
+    <string name="text_overview">Ikhtisar</string>
+    <string name="creator_tvshow">Pencipta</string>
+    <string name="stars_tvshow">Bintang</string>
 
     <string name="movie_name">Nama Film</string>
     <string name="movie_genre">Jenis Film</string>
@@ -23,11 +16,24 @@
     <string name="production">Produksi</string>
     <string name="synopsis">Sinopsis</string>
 
-    <string name="now_playing">Movies</string>
-    <string name="up_coming">Tv Shows</string>
+    <string name="movies">Film</string>
+    <string name="tv_show">Acara TV</string>
     <string name="change_language">Ubah Bahasa</string>
     <string name="movie_detail">Detail Film</string>
     <string name="tvshow_detail">Detail TvShows</string>
+
+    <string-array name="data_genre">
+        <item>Aksi, Petualangan, Komedi</item>
+        <item>Animasi, Petualangan, Drama</item>
+        <item>Horor</item>
+        <item>Komedi, Fantasi, Musik</item>
+        <item>Komedi</item>
+        <item>Drama, Keluarga</item>
+        <item>Komedi</item>
+        <item>Aksi, Thriller</item>
+        <item>Animasi, Petualangan, Komedi</item>
+        <item>Aksi, Komedi</item>
+    </string-array>
 
     <string-array name="data_durasi">
         <item>129 Menit</item>
@@ -77,6 +83,19 @@
         <item>Ketika seorang pengemudi Uber yang santun bernama Stu (Kumail Nanjiani) menjemput seorang penumpang (Dave Bautista) yang ternyata adalah seorang polisi yang sedang
             mengejar seorang pembunuh brutal (Iko Uwais), ia dihadapkan pada sebuah tekanan tingkat tinggi karena ia harus mati-matian berusaha untuk mempertahankan akalnya, hidupnya dan peringkat bintang lima-nya.
         </item>
+    </string-array>
+
+    <string-array name="genre_tvshow">
+        <item>Aksi, Komedi, Kejahatan</item>
+        <item>Kejahatan, Drama, Thriller</item>
+        <item>Drama, Fantasi, Horor</item>
+        <item>Drama, Fiksi, Thriller</item>
+        <item>Aksi, Kejahatan, Drama</item>
+        <item>Drama, Misteri</item>
+        <item>Komedi</item>
+        <item>Drama</item>
+        <item>Komedi, Kejahatan, Drama</item>
+        <item>Kejahatan, Drama </item>
     </string-array>
 
     <string-array name="overview_tvshow">
